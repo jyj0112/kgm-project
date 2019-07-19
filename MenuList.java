@@ -3,7 +3,7 @@ package menu.model;
 import java.util.ArrayList;
 import java.util.Random;
 
-//±â´É¸Ş¼Òµå ÁıÇÕ
+//ê¸°ëŠ¥ë©”ì†Œë“œ ì§‘í•©
 public class MenuList { 
 	Random menu = new Random();
 	ArrayList<String> str = new ArrayList<String>();
@@ -11,40 +11,40 @@ public class MenuList {
 	public MenuList() {
 	}
 
-	// 1¹ø ºĞ½Ä·ù
+	// 1ë²ˆ ë¶„ì‹ë¥˜
 	public void Bob1() {
-		String[] food = { "µ·±î½º", "ÂüÄ¡±è¹ä", "¿À¹Ç¶óÀÌ½º", "¶ó¸é", "¶ÒºÒ" };
+		String[] food = { "ëˆê¹ŒìŠ¤", "ì°¸ì¹˜ê¹€ë°¥", "ì˜¤ë¯€ë¼ì´ìŠ¤", "ë¼ë©´", "ëšë¶ˆ" };
 			
-			System.out.println(food[menu.nextInt(food.length)] + "(ÀÌ)°¡ ´çÃ·µÇ¾ú½À´Ï´Ù.");
-	} // Bob1 ¸Ş¼Òµå
-		// 2¹ø ±¹and¹ä·ù
+			System.out.println(food[menu.nextInt(food.length)] + "(ì´)ê°€ ë‹¹ì²¨ë˜ì—ˆìŠµë‹ˆë‹¤.");
+	} // Bob1 ë©”ì†Œë“œ
+		// 2ë²ˆ êµ­andë°¥ë¥˜
 
 	public void Bob2() {
-		String[] food = { "¼ø´ë±¹¹ä", "À°°³Àå", "7ºĞ±èÄ¡Âî°³", "ºñºö¹ä", "¹é¹İ" };
+		String[] food = { "ìˆœëŒ€êµ­ë°¥", "ìœ¡ê°œì¥", "7ë¶„ê¹€ì¹˜ì°Œê°œ", "ë¹„ë¹”ë°¥", "ë°±ë°˜" };
 		String[] one = new String[1];
 
 		for (int i = 0; i < 1; i++) {
 			one[i] = food[menu.nextInt(5)];
 		}
 		for (int i = 0; i < 1; i++) {
-			System.out.println(one[i] + "(ÀÌ)°¡ ´çÃ·µÇ¾ú½À´Ï´Ù.");
+			System.out.println(one[i] + "(ì´)ê°€ ë‹¹ì²¨ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		}
-	} // Bob2 ¸Ş¼Òµå
+	} // Bob2 ë©”ì†Œë“œ
 
-	// 3¹ø ¸éand±×¿Ü
+	// 3ë²ˆ ë©´andê·¸ì™¸
 	public void Bob3() {
-		String[] food = { "¶ó¸é", "¼Ò¹Ù", "Åä½ºÆ®", "ÆíÀÇÁ¡", "¸ÆÃ¢" };
+		String[] food = { "ë¼ë©´", "ì†Œë°”", "í† ìŠ¤íŠ¸", "í¸ì˜ì ", "ë§¥ì°½" };
 		String[] one = new String[1];
 		for (int i = 0; i < 1; i++) {
 			one[i] = food[menu.nextInt(5)];
 		}
 		for (int i = 0; i < 1; i++) {
-			System.out.println(one[i] + "(ÀÌ)°¡ ´çÃ·µÇ¾ú½À´Ï´Ù.");
+			System.out.println(one[i] + "(ì´)ê°€ ë‹¹ì²¨ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		}
 	}
 
 	public void Bob4() {
-		 
+		 System.out.println("ì•™ ê¸°ëª¨ë ");
 		
 	}
 	
